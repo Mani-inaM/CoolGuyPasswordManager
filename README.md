@@ -1,4 +1,4 @@
-# CoolGuyPasswordManager
+![image](https://github.com/user-attachments/assets/b0b2b275-1851-49b1-be70-4dc62c15841d)# CoolGuyPasswordManager
 
 ## Project Overview
 
@@ -50,23 +50,18 @@ The password manager uses a combination of encryption and hashing techniques to 
   - Master password compromise: The security of all stored credentials relies on the strength and secrecy of the master password.
 
 
-**Potential Pitfalls**
-
+- **Potential Pitfalls**
    - Weak Master Password: If the master password is weak, it could be guessed by an attacker, compromising all stored credentials. Users are advised to choose strong, unique master passwords.
    - Physical Device Security: Since the passwords are stored locally, physical access to the device increases the risk of data theft. Users should ensure their device is protected by operating system-level security measures.
 ## Setup Instructions
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.12
 - The following Python libraries are required:
   - `tkinter`
   - `cryptography`
   - `sqlite3`
+![image](https://github.com/user-attachments/assets/4a7d6f12-26fb-4a36-a243-1a7767d814c8)
+![image](https://github.com/user-attachments/assets/0365e42e-0111-4e4c-8bd7-9828ada5ac5e)
 
-### Installation Steps
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
