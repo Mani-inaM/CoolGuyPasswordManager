@@ -62,6 +62,9 @@ The password manager uses a combination of encryption and hashing techniques to 
   - `tkinter`
   - `cryptography`
   - `sqlite3`
+
+
+
 ![image](https://github.com/user-attachments/assets/4a7d6f12-26fb-4a36-a243-1a7767d814c8)
 ![image](https://github.com/user-attachments/assets/0365e42e-0111-4e4c-8bd7-9828ada5ac5e)
 
