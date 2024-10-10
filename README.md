@@ -1,5 +1,4 @@
 # CoolGuyPasswordManager
-# Password Manager
 
 ## Project Overview
 
