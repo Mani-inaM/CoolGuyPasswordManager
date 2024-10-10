@@ -49,6 +49,11 @@ The password manager uses a combination of encryption and hashing techniques to 
   - Physical device access: If an attacker gains physical access to the device and master password, the credentials could be exposed. However, strong master passwords and secure device practices are recommended to mitigate this.
   - Master password compromise: The security of all stored credentials relies on the strength and secrecy of the master password.
 
+
+**Potential Pitfalls**
+
+   - Weak Master Password: If the master password is weak, it could be guessed by an attacker, compromising all stored credentials. Users are advised to choose strong, unique master passwords.
+   - Physical Device Security: Since the passwords are stored locally, physical access to the device increases the risk of data theft. Users should ensure their device is protected by operating system-level security measures.
 ## Setup Instructions
 
 ### Prerequisites
