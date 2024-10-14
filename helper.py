@@ -1,6 +1,6 @@
-import os
 import hashlib
 import json
+import os
 import random
 import string
 
@@ -22,17 +22,12 @@ class Helper:
             os.makedirs(data_dir)
 
         self.salt_file = os.path.join(data_dir, 'salt.salt')
-        self.key_file = os.path.join(data_dir, 'kek.key')
         self.master_password_file = os.path.join(data_dir, 'master_password.json')
 
         self.salt = self.load_salt()
-        self.kek = self.load_key()
 
     def load_salt(self):
         return self.load_file(self.salt_file, os.urandom(16))
-
-    def load_key(self):
-        return self.load_file(self.key_file, os.urandom(32))
 
     def load_file(self, file_path, default_data):
         if not os.path.exists(file_path):
@@ -43,6 +38,7 @@ class Helper:
             return f.read()
 
     def derive_key(self, password):
+        # Use the provided password to derive a key for encryption
         kdf = PBKDF2HMAC(
             algorithm=hashes.SHA256(),
             length=32,

@@ -140,7 +140,8 @@ class PasswordManagerApp:
             password = entry_password.get()
 
             if service and username and password:
-                self.pm.store_password(service, username, password)
+                master_password = self.entry_master_password.get()  # Fetch the master password from the login
+                self.pm.store_password(master_password, service, username, password)
                 messagebox.showinfo("Success", "New service added successfully!")
                 add_service_window.destroy()
             else:
