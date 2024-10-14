@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/b0b2b275-1851-49b1-be70-4dc62c15841d)# CoolGuyPasswordManager
+![image](https://github.com/user-attachments/assets/b0b2b275-1851-49b1-be70-4dc62c15841d)
+# CoolGuyPasswordManager
 
 ## Project Overview
 
